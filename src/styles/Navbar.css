@@ -1,0 +1,214 @@
+/* Navbar container */
+
+.navbar2 {
+  background-color: #333;
+  transition: background-color 0.3s ease; /* Smooth transition for navbar background */
+
+}
+.navbar2:hover  {
+  background-color: #444;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+  position: relative; /* Ensure dropdown is positioned correctly */
+  transition: background-color 0.3s ease; /* Smooth transition for navbar background */
+}
+
+/* Hover effect for the navbar */
+.navbar:hover {
+  background-color: #444; /* Darken background slightly on hover */
+}
+
+/* Navbar links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition for color and scale */
+}
+
+.navbar-links a:hover {
+  color: #ff6600;
+  transform: scale(1.05); /* Slightly scale up the link for emphasis */
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative; /* Position relative to the button */
+  display: inline-block;
+  transition: all 0.6s ease; /* Smooth transition for dropdown */
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+.dropbtn:hover {
+  background-color: #444; /* Darken the background color on hover */
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 200px;
+  z-index: 1;
+  top: 100%; /* Position dropdown content below the button */
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  transition: opacity 0.8s ease; /* Smooth fade-in for dropdown */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  opacity: 1;
+  flex-direction: column; /* Stack dropdown items vertically */
+  justify-content: flex-start; /* Align items to the left */
+  padding-top: 10px;
+}
+
+/* Dropdown rows */
+.dropdown-row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.dropdown-row h4 {
+  color: #ff6600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.dropdown-row a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background */
+}
+
+.dropdown-row a:hover {
+  background-color: #555;
+  transform: translateX(5px); /* Add a slight movement effect */
+}
+
+/* Mobile Navbar */
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-toggle i {
+  font-size: 30px; /* Font Awesome hamburger icon size */
+  color: #fff;
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px; /* Add space between navbar and links */
+    position: absolute; /* Ensure it is positioned below the navbar */
+    top: 60px; /* Adjust the position to be below the navbar */
+    left: 0;
+    background-color: #333; /* Ensure it has a background */
+    z-index: 333;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  /* Mobile dropdown positioning */
+  .dropdown-content {
+    display: none; /* Initially hidden */
+    position: relative; /* Adjust the position of the dropdown items */
+    background-color: #333;
+    width: 100%;
+    z-index: 2; /* Ensure it's above other elements */
+    top: 0; /* Align with the dropdown button */
+  }
+
+  /* Show dropdown content only when active */
+  .dropdown.active .dropdown-content {
+    display: flex;
+    flex-direction: column; /* Stack dropdown items vertically */
+    padding-top: 10px; /* Add space above dropdown items */
+  }
+
+  /* Dropdown button position adjustment for mobile */
+  .dropbtn {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+  }
+
+  .navbar-toggle {
+    display: block;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .navbar-toggle i {
+    font-size: 30px; /* Font Awesome hamburger icon size */
+    color: #fff;
+  }
+}
+
+
+
+.contact-info {
+  background-color: #2c3e50; /* Light background */
+  color: #b5b5b5;
+  /* padding: 10px 0; */
+  /* font-size: 14px; */
+}
+.social-icons {
+  padding: 4px;
+  margin-left: 10px;
+  padding-left: 4px;
+}
+
+.contact-info .social-icons a:hover {
+  color: #007bff; /* Hover color */
+}
+
+.icons {
+  padding: 7px;
+}
+
+
+.social-email {
+  padding: 4px;
+}
+
+.dropdown-content {
+  z-index: 999; /* Ensure it is on top of other elements */
+}

@@ -1,0 +1,149 @@
+.power-bi-page {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.power-bi-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.power-bi-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #0078d4; /* Power BI Blue */
+}
+
+.power-bi-header p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.power-bi-services {
+  margin-bottom: 40px;
+}
+
+.power-bi-services h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0078d4;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.service-item {
+  flex: 1 1 calc(25% - 30px);
+  max-width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+}
+
+.service-item h3 {
+  margin: 15px 0;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.use-case-section {
+  margin-bottom: 40px;
+}
+
+.use-case-section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0078d4;
+}
+
+.use-case-content {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.data-process-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.process-flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.process-step {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.process-icon {
+  color: #0078d4;
+  margin-bottom: 10px;
+}
+
+.process-arrow {
+  color: #ccc;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .service-item {
+      flex: 1 1 100%;
+      max-width: none;
+  }
+
+  .power-bi-header h1 {
+      font-size: 2rem;
+  }
+
+  .use-case-section h2,
+  .data-process-section h2 {
+      font-size: 2rem;
+  }
+
+  .process-flow {
+      flex-direction: column;
+  }
+}
+
+

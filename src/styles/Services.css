@@ -1,0 +1,55 @@
+/* src/pages/Services.css */
+.services {
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .services h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-card p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 768px) {
+    .services h1 {
+      font-size: 2.5rem;
+    }
+  
+    .service-card {
+      padding: 15px;
+    }
+  
+    .service-card h2 {
+      font-size: 1.8rem;
+    }
+  
+    .service-card p {
+      font-size: 1rem;
+    }
+  }
+  

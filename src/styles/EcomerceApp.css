@@ -1,0 +1,230 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p, ul, li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Intro Section */
+.ecommercebackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 65vh;
+  color: white;
+  position: relative; 
+  overflow: hidden;
+}
+
+.ecommercebackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../public/img/portfolio/ecomapp.jpg") no-repeat center center/cover;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.ecommercebackground .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #f8f9fa;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+}
+
+.features-section .card {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.features-section .card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.features-section .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.features-section ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.features-section ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.features-section ul li::before {
+  content: "✔";
+  color: #28a745;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+}
+
+/* Payment Gateway Section */
+.payment-gateway-section {
+  background-color: #f9f9f9;
+}
+
+.payment-gateway-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.payment-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.payment-card:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.payment-icon {
+  font-size: 3rem;
+  color: #333;
+}
+
+.payment-card p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Admin Dashboard Section */
+.admin-dashboard-section {
+  background-color: #ffffff;
+}
+
+.admin-dashboard-image {
+  background-image: url('https://lexcart-images.s3.us-east-2.amazonaws.com/lexcart-dashboard.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Technologies Section */
+.technologysection {
+  background-color: #e9f7ef;
+}
+
+.technologysection h2 {
+  font-size: 2.5rem;
+  color: #28a745;
+}
+
+.tech-card {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tech-icon {
+  width: 90px;
+  height: 60px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .ecommercebackground {
+    height: 50vh;
+  }
+
+  .features-section h2, .technologysection h2 {
+    font-size: 2rem;
+  }
+
+  .tech-card {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .features-section .card-title {
+    font-size: 1.25rem;
+  }
+
+  .payment-card {
+    padding: 20px;
+  }
+}
+
+ /* Technology Icons */
+ .tech-icon.java {
+  background-image: url("../../public/img/portfolio/java22.jpg");
+}
+
+.tech-icon.springboot {
+  background-image: url("../../public/img/portfolio/springbt2.png");
+}
+
+.tech-icon.mysql {
+  background-image: url("../../public/img/portfolio/mysql22.png");
+}
+
+.tech-icon.bootstrap {
+  background-image: url("../../public/img/portfolio/boot.jpg");
+}

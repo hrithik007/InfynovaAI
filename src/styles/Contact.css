@@ -1,0 +1,25 @@
+/* General Styles */
+.contact-page {
+  padding: 50px 20px;
+  background-color: #f7f9fc;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Google Form Embed */
+.google-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.google-form-iframe {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

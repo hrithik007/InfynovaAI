@@ -1,0 +1,143 @@
+/* General styles */
+.data-analytics-page {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.data-analytics-header {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.data-analytics-header h1 {
+  margin-top: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1abc9c;; /* Power BI Blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.data-analytics-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Benefits Section */
+.benefits-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.benefit-item {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.benefit-item h2 {
+    font-size: 1.75rem;
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.cta-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: white;
+    color: #1abc9c;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ecf0f1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .benefits-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-item {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .data-analytics-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .data-analytics-header p {
+        font-size: 1rem;
+    }
+
+    .cta-section h3 {
+        font-size: 1.6rem;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+    }
+}
+
+
+.imagelayout{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+

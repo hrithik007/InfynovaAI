@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/InfynovaAI/static/css/main.8ff73e9b.css",
-    "main.js": "/InfynovaAI/static/js/main.cc579b00.js",
+    "main.js": "/InfynovaAI/static/js/main.fa1ce677.js",
     "static/js/488.929150f8.chunk.js": "/InfynovaAI/static/js/488.929150f8.chunk.js",
     "static/media/banner3.jpg": "/InfynovaAI/static/media/banner3.d985d231fc7d2dd14db6.jpg",
     "static/media/backgrdimg1.jpg": "/InfynovaAI/static/media/backgrdimg1.96797e48ac0cafcd9ea1.jpg",
@@ -26,11 +26,11 @@
     "static/media/fa-v4compatibility.woff2": "/InfynovaAI/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/InfynovaAI/index.html",
     "main.8ff73e9b.css.map": "/InfynovaAI/static/css/main.8ff73e9b.css.map",
-    "main.cc579b00.js.map": "/InfynovaAI/static/js/main.cc579b00.js.map",
+    "main.fa1ce677.js.map": "/InfynovaAI/static/js/main.fa1ce677.js.map",
     "488.929150f8.chunk.js.map": "/InfynovaAI/static/js/488.929150f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ff73e9b.css",
-    "static/js/main.cc579b00.js"
+    "static/js/main.fa1ce677.js"
   ]
 }

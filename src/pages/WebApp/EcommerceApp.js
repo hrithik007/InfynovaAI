@@ -143,6 +143,12 @@ const EcommerceApp = () => {
                 <div className="mt-2"><strong>Bootstrap</strong></div>
               </div>
             </div>
+            <div className="col-6 col-md-2">
+              <div className="tech-card">
+                <div className="tech-icon thymeleaf"></div>
+                <div className="mt-2"><strong>Thymeleaf</strong></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

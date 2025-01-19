@@ -25,14 +25,14 @@ function Home() {
 {/* Our Mission Section */}
 <section className="mission">
   <h2 className="mission-title">Our Mission</h2>
-  <div className="mission-container">
+  <div className="container">
     <div className="row align-items-center">
       {/* Image Section */}
-      <div className="col-md-6 col-12 mission-img">
-        <img src="/img/inno.jpg" alt="Our Mission" />
+      <div className="col-md-6 img1">
+     
       </div>
       {/* Text Section */}
-      <div className="col-md-6 col-12 mission-content">
+      <div className="col-md-6  mission-content">
         <p className="mission-intro">
           Our mission is to empower businesses through innovative and efficient solutions. We focus on:
         </p>

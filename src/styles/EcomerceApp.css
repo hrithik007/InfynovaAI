@@ -228,3 +228,7 @@ a:hover {
 .tech-icon.bootstrap {
   background-image: url("../../public/img/portfolio/boot.jpg");
 }
+
+.tech-icon.thymeleaf {
+  background-image: url("../../public/img/thyme.png");
+}

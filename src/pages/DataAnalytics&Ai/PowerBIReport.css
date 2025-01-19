@@ -1,30 +1,40 @@
+/* Overall Page Style */
 .power-bi-page {
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
+  background-color: #f4f4f4; /* Light grey for a professional and clean look */
 }
 
+/* Header */
 .power-bi-header {
   text-align: center;
   margin-bottom: 40px;
+  background: linear-gradient(135deg, #0078d4, #005a9e); /* Power BI-themed gradient */
+  color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
 }
 
 .power-bi-header h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #0078d4; /* Power BI Blue */
 }
 
 .power-bi-header p {
   font-size: 1.2rem;
-  color: #555;
   max-width: 800px;
   margin: 0 auto;
 }
 
+/* Services Section */
 .power-bi-services {
+  padding: 40px 20px;
+  background-color: #fdf5e6; /* Subtle wheat tone */
+  border-radius: 8px;
   margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .power-bi-services h2 {
@@ -47,14 +57,21 @@
   max-width: 300px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  background-color: #fff;
-  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .service-item:hover {
   transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  color: #0078d4;
+  margin-bottom: 15px;
+  font-size: 2rem;
 }
 
 .service-item h3 {
@@ -69,14 +86,11 @@
   line-height: 1.5;
 }
 
-.service-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
+/* Use Case Section */
 .use-case-section {
+  padding: 40px 20px;
+  background-color: #e6f2fb; /* Soft blue to match Power BI theme */
+  border-radius: 8px;
   margin-bottom: 40px;
 }
 
@@ -91,14 +105,18 @@
 .use-case-content {
   text-align: center;
   font-size: 1.2rem;
-  color: #555;
+  color: #333;
   max-width: 900px;
   margin: 0 auto;
 }
 
+/* Data Process Section */
 .data-process-section {
   text-align: center;
   margin-top: 40px;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
 }
 
 .process-flow {
@@ -113,37 +131,41 @@
   text-align: center;
   font-size: 1.1rem;
   color: #333;
+  padding: 10px 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
 }
 
 .process-icon {
   color: #0078d4;
   margin-bottom: 10px;
+  font-size: 2rem;
 }
 
 .process-arrow {
-  color: #ccc;
+  color: #aaa;
   font-size: 1.5rem;
   margin-top: 10px;
 }
 
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   .service-item {
-      flex: 1 1 100%;
-      max-width: none;
+    flex: 1 1 100%;
+    max-width: none;
   }
 
   .power-bi-header h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .use-case-section h2,
   .data-process-section h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .process-flow {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
-
-

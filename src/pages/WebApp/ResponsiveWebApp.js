@@ -4,7 +4,7 @@ import { faMobileAlt, faDesktop, faTabletAlt, faCode, faChartLine, faUserCheck }
 import './ResponsiveWebApp.css'; // Include responsive styling
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'; // You can choose any icon
-
+import image from '../../assets/responsive.jpg';
 
 function ResponsiveWebApp() {
   return (
@@ -16,7 +16,7 @@ function ResponsiveWebApp() {
           Our solutions deliver exceptional performance across devices.
         </p>
         <img 
-          src="/img/responsive.jpg" 
+          src={image} 
           alt="Responsive Web App Development" 
           className="responsive-header-image" 
         />
@@ -70,9 +70,9 @@ function ResponsiveWebApp() {
           Let’s turn your vision into reality.
         </p>
         <Link to="/contact" className="cta-icon-link">
-          <FontAwesomeIcon icon={faPhoneAlt} size="2x" className="cta-icon" />
-          <span className="cta-link-text">Contact Us</span>
-        </Link>
+  <FontAwesomeIcon icon={faPhoneAlt} size="3x" className="cta-icon" /> <br />Contact Us
+</Link>
+
       </section>
     </div>
   );

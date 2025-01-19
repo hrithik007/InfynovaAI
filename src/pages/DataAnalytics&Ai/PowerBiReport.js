@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileExcel, faChartBar, faCogs, faChartLine } from '@fortawesome/free-solid-svg-icons';
-import './PowerBIReport.css'; // Updated responsive and professional styling
+import { faChartPie, faMoneyCheckAlt, faDatabase, faPlug, faFileExcel, faChartBar, faCogs, faChartLine } from '@fortawesome/free-solid-svg-icons';
+import './PowerBIReport.css';
 
 function PowerBIReport() {
   return (
@@ -18,11 +18,7 @@ function PowerBIReport() {
         <h2>Services Offered by Power BI</h2>
         <div className="services-list">
           <div className="service-item">
-            <img
-              src="/img/dataAnalytics/dash2.png"
-              alt="Interactive Dashboards"
-              className="service-image"
-            />
+            <FontAwesomeIcon icon={faChartPie} size="3x" className="service-icon" />
             <h3>Interactive Dashboards</h3>
             <p>
               Create visually stunning dashboards that display real-time metrics and KPIs. Monitor
@@ -31,11 +27,7 @@ function PowerBIReport() {
           </div>
 
           <div className="service-item">
-            <img
-              src="/img/dataAnalytics/finance.jpg"
-              alt="Financial Analysis"
-              className="service-image"
-            />
+            <FontAwesomeIcon icon={faMoneyCheckAlt} size="3x" className="service-icon" />
             <h3>Comprehensive Financial Analysis</h3>
             <p>
               Analyze your company's net profit, revenue trends, and cost structures. Power BI
@@ -44,11 +36,7 @@ function PowerBIReport() {
           </div>
 
           <div className="service-item">
-            <img
-              src="/img/dataAnalytics/data.jpg"
-              alt="Data Forecasting"
-              className="service-image"
-            />
+            <FontAwesomeIcon icon={faDatabase} size="3x" className="service-icon" />
             <h3>Data Modeling and Forecasting</h3>
             <p>
               Leverage advanced analytics to model your business data and forecast future trends.
@@ -57,11 +45,7 @@ function PowerBIReport() {
           </div>
 
           <div className="service-item">
-            <img
-              src="/img/dataAnalytics/excel.jpg"
-              alt="Seamless Integration"
-              className="service-image"
-            />
+            <FontAwesomeIcon icon={faPlug} size="3x" className="service-icon" />
             <h3>Seamless Integration</h3>
             <p>
               Integrate Power BI with various data sources such as Excel, SQL Server, and cloud-based

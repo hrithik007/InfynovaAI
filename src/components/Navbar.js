@@ -8,7 +8,7 @@ function NavBar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const handleAboutClick = () => {
-    navigate('/');
+    navigate('/InfynovaAI');
     setTimeout(() => {
       const contactSection = document.getElementById('about');
       if (contactSection) {

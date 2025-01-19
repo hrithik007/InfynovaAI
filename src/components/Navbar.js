@@ -56,7 +56,7 @@ function NavBar() {
           <h2>InfynovaAI</h2>
         </div>
         <div className={`navbar-links ${menuOpen ? 'active' : ''}`}>
-          <Link to="/">Home</Link>
+          <Link to="/InfynovaAI">Home</Link>
 
           {/* Services Dropdown */}
           <div className={`dropdown ${dropdownOpen ? 'active' : ''}`}>

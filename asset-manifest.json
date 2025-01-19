@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/InfynovaAI/static/css/main.8ff73e9b.css",
-    "main.js": "/InfynovaAI/static/js/main.48e611ee.js",
+    "main.css": "/InfynovaAI/static/css/main.2ea8f9f3.css",
+    "main.js": "/InfynovaAI/static/js/main.e940e69a.js",
     "static/js/488.929150f8.chunk.js": "/InfynovaAI/static/js/488.929150f8.chunk.js",
-    "static/media/banner3.jpg": "/InfynovaAI/static/media/banner3.d985d231fc7d2dd14db6.jpg",
     "static/media/backgrdimg1.jpg": "/InfynovaAI/static/media/backgrdimg1.96797e48ac0cafcd9ea1.jpg",
     "static/media/collab.jpg": "/InfynovaAI/static/media/collab.54d9afc7ca6edbeabafc.jpg",
-    "static/media/banner2.jpg": "/InfynovaAI/static/media/banner2.3f60705b2598afbf75cb.jpg",
+    "static/media/responsive.jpg": "/InfynovaAI/static/media/responsive.412faad1057947c5d500.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/InfynovaAI/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fa-solid-900.ttf": "/InfynovaAI/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/InfynovaAI/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fontawesome-webfont.eot": "/InfynovaAI/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/InfynovaAI/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fa-solid-900.woff2": "/InfynovaAI/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/inno.jpg": "/InfynovaAI/static/media/inno.b415e9f6c0da6c99b603.jpg",
     "static/media/ecomapp.jpg": "/InfynovaAI/static/media/ecomapp.ab8ec72323fbcd2280d4.jpg",
     "static/media/fa-brands-400.woff2": "/InfynovaAI/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/InfynovaAI/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
@@ -25,12 +25,12 @@
     "static/media/fa-v4compatibility.ttf": "/InfynovaAI/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/InfynovaAI/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/InfynovaAI/index.html",
-    "main.8ff73e9b.css.map": "/InfynovaAI/static/css/main.8ff73e9b.css.map",
-    "main.48e611ee.js.map": "/InfynovaAI/static/js/main.48e611ee.js.map",
+    "main.2ea8f9f3.css.map": "/InfynovaAI/static/css/main.2ea8f9f3.css.map",
+    "main.e940e69a.js.map": "/InfynovaAI/static/js/main.e940e69a.js.map",
     "488.929150f8.chunk.js.map": "/InfynovaAI/static/js/488.929150f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ff73e9b.css",
-    "static/js/main.48e611ee.js"
+    "static/css/main.2ea8f9f3.css",
+    "static/js/main.e940e69a.js"
   ]
 }

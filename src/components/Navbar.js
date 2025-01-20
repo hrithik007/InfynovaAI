@@ -8,9 +8,8 @@ function NavBar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const handleAboutClick = () => {
-    navigate('/InfynovaAI');
     setTimeout(() => {
-      const contactSection = document.getElementById('about');
+      const contactSection = document.getElementById("about");
       if (contactSection) {
         contactSection.scrollIntoView({ behavior: 'smooth' });
       }
@@ -34,7 +33,7 @@ function NavBar() {
   <div className="container d-flex justify-content-between">
     <span className="social-email">
       <i className="fas fa-envelope"></i> {/* Font Awesome Email Icon */}
-      hrithik.jais2013@gmail.com
+      projectmanagers@devpulseanalytics.com
     </span>
     <div className="social-icons">
       <a className='icons' href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
@@ -53,10 +52,10 @@ function NavBar() {
      <div className='navbar2'>
      <nav className="container navbar">
         <div className="navbar-logo">
-          <h2>InfynovaAI</h2>
+          <h2>DevpulseAnalytics</h2>
         </div>
         <div className={`navbar-links ${menuOpen ? 'active' : ''}`}>
-          <Link to="/InfynovaAI">Home</Link>
+          <Link to="/">Home</Link>
 
           {/* Services Dropdown */}
           <div className={`dropdown ${dropdownOpen ? 'active' : ''}`}>
@@ -77,7 +76,7 @@ function NavBar() {
             </div>
           </div>
 
-          <Link onClick={handleAboutClick} style={{ cursor: 'pointer' }}>About</Link>
+          <Link to={"/"} onClick={handleAboutClick} style={{ cursor: 'pointer' }}>About</Link>
           <Link to="/contact">Contact</Link>
         </div>
 

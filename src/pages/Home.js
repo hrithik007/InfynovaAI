@@ -1,8 +1,9 @@
-import React from 'react';
+import React  from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css'; // Add your custom styles
 
 function Home() {
+ 
   return (
     <div className="home">
       {/* Hero Section */}
@@ -15,9 +16,9 @@ function Home() {
       </section>
 
       {/* About Us Section */}
-      <section className="about" id='about'>
+      <section className="about" id="about">
         <h2>About Us</h2>
-        <p>At InfynovaAI, we pride ourselves on delivering cutting-edge IT solutions that help businesses transform and scale. Our expertise spans web app development, data analytics, and the implementation of robust Power BI solutions tailored to each client's specific needs.</p>
+        <p>At DevpulseAnalytics, we pride ourselves on delivering cutting-edge IT solutions that help businesses transform and scale. Our expertise spans web app development, data analytics, and the implementation of robust Power BI solutions tailored to each client's specific needs.</p>
       </section>
 
 
@@ -108,7 +109,7 @@ function Home() {
       {/* Why Choose Us Section */}
       <section className="why-choose-us">
         <h2>Why Choose Us?</h2>
-        <p>With a proven track record of success, InfynovaAI is your trusted partner in technology. Here’s why companies trust us with their digital transformation:</p>
+        <p>With a proven track record of success, DevpulseAnalytics is your trusted partner in technology. Here’s why companies trust us with their digital transformation:</p>
         <ul>
           <li><i className="fas fa-check-circle"></i> Proven expertise in developing scalable, high-performance web applications</li>
           <li><i className="fas fa-check-circle"></i> Comprehensive data analytics and reporting solutions powered by Power BI</li>

@@ -22,7 +22,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/InfynovaAI" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ecommerce-app" element={<EcommerceApp />} />

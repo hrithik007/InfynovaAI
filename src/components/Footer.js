@@ -5,7 +5,7 @@ import '../styles/Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2025 InfynovaAI. All Rights Reserved.</p>
+      <p>&copy; 2025 DevpulseAnalytics. All Rights Reserved.</p>
       <div className="social-links">
         <a href="#">LinkedIn</a>
         <a href="#">GitHub</a>

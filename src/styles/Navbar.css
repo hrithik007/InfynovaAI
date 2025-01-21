@@ -125,6 +125,10 @@
 
 /* Mobile view */
 @media screen and (max-width: 768px) {
+.social-email{
+  font-size: small;
+}
+
   .navbar-links {
     display: none;
     width: 100%;
@@ -212,3 +216,4 @@
 .dropdown-content {
   z-index: 999; /* Ensure it is on top of other elements */
 }
+

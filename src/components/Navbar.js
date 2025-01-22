@@ -35,7 +35,9 @@ function NavBar() {
       <i className="fas fa-envelope"></i> {/* Font Awesome Email Icon */}
       projectmanagers@devpulseanalytics.com
     </span>
+  
     <div className="social-icons">
+    <span className="social-email">+91 7044234671</span>
       <a className='icons' href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-facebook-f"></i>
       </a>
@@ -52,7 +54,7 @@ function NavBar() {
      <div className='navbar2'>
      <nav className="container navbar">
         <div className="navbar-logo">
-          <h2>DevpulseAnalytics</h2>
+          <h2>Devpulse Analytics</h2>
         </div>
         <div className={`navbar-links ${menuOpen ? 'active' : ''}`}>
           <Link to="/">Home</Link>

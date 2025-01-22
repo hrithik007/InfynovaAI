@@ -184,11 +184,19 @@
     font-size: 30px; /* Font Awesome hamburger icon size */
     color: #fff;
   }
+
+  .contact-info {
+    display: none;
+  }
+  .navbar-logo{
+    padding-left: 15px;
+  }
 }
 
 
 
 .contact-info {
+  position: relative;
   background-color: #2c3e50; /* Light background */
   color: #b5b5b5;
   /* padding: 10px 0; */
@@ -217,3 +225,104 @@
   z-index: 999; /* Ensure it is on top of other elements */
 }
 
+.navbar-logo {
+  font-family: 'Poppins', sans-serif; /* Clean, modern font */
+  font-size: 24px; /* Large and clear */
+  font-weight: 600; /* Slightly bold for emphasis */
+  color: #ff6600; /* Vibrant orange for IT and analytics themes */
+  letter-spacing: 1.5px; /* Slight spacing for readability */
+  display: flex; /* Align elements if needed */
+  align-items: center; /* Vertically center content */
+  cursor: pointer; /* Make the logo clickable */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+
+/* Fixed Navbar for both desktop and mobile */
+.navbar, .navbar2 {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Align the navbar to the top of the viewport */
+  left: 0;
+  width: 100%; /* Ensure it spans the full width */
+  z-index: 1000; /* Keeps it above all other elements */
+  background-color: #333; /* Match your existing background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for separation */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Adjust content spacing to account for the fixed navbar */
+.body-content {
+  margin-top: 60px; /* Adjust this based on your navbar height */
+}
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+  .navbar, .navbar2 {
+    padding: 10px 15px; /* Smaller padding for mobile screens */
+  }
+
+  .body-content {
+    margin-top: 70px; /* Account for navbar height on smaller screens */
+  }
+
+  .navbar2{
+    top: 0px;
+  }
+}
+
+/* Add styles for scrolled effect (optional) */
+.navbar.scrolled, .navbar2.scrolled {
+  background-color: #444; /* Darker background on scroll */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on scroll */
+}
+
+
+.contact-info {
+  position: fixed;  /* Make it fixed */
+  top: 0;  /* Position it at the top */
+  left: 0;
+  width: 100%; /* Ensure it spans the full width */
+  background-color: #2c3e50; /* Same background as before */
+  color: #b5b5b5;
+  padding: 1px 0; /* Add padding for better spacing */
+  z-index: 9999; /* Ensure it is above navbar */
+}
+
+.navbar2 {
+  position: fixed;  /* Keep the navbar fixed */
+  top: 30px;  /* Adjust this value based on the height of your contact-info */
+  left: 0;
+  width: 100%; /* Ensure it spans the full width */
+  background-color: #333;
+  transition: background-color 0.3s ease;
+  z-index: 9998; /* Make sure navbar is below contact-info */
+}
+
+.body-content {
+  margin-top: 120px;  /* Adjust this based on the height of both navbar and contact-info */
+}
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+  .navbar, .navbar2 {
+    padding: 10px 15px; /* Smaller padding for mobile screens */
+  }
+
+  .body-content {
+    margin-top: 70px; /* Account for navbar height on smaller screens */
+  }
+
+  /* Fix the navbar2 on top without space above */
+  .navbar2 {
+    top: 0px; /* Ensure navbar2 is positioned at the top without extra space */
+  }
+  
+  .contact-info {
+    top: 0px; /* Keep the contact-info at the very top */
+    padding: 1px 0; /* Adjust padding for better spacing */
+  }
+  
+  .body-content {
+    margin-top: 120px; /* Adjust this based on the combined height of navbar and contact-info */
+  }
+}

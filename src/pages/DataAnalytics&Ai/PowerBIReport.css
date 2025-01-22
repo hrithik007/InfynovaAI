@@ -1,5 +1,6 @@
 /* Overall Page Style */
 .power-bi-page {
+  margin-top: 80px;
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;

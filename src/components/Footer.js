@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { 
+  faLinkedin, 
+  faFacebook, 
+  faInstagram 
+} from '@fortawesome/free-brands-svg-icons';
 import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Footer.css';
 
@@ -46,8 +50,11 @@ function Footer() {
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
+            <a href="https://www.facebook.com/profile.php?id=61572640581088" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
+            <a href="https://www.instagram.com/projectmanagers2025/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
           </div>
         </div>
@@ -56,9 +63,13 @@ function Footer() {
         <div className="footer-section">
           <h4>Our Office</h4>
           <address>
-            <p>DevPulse Analytics Pvt. Ltd.</p>
-            <p>436, Bhawani Twin Towers, Kolkata</p>
+            <p><strong>DevPulse Analytics Pvt. Ltd.</strong></p>
+            <p>Head Office:</p>
+            <p>436, Bhawani Twin Towers, Kolkata, India</p>
             <p>Phone: <FontAwesomeIcon icon={faPhoneAlt} /> +91 7044234671</p>
+            <p>Branch Office:</p>
+            <p>Supertech Eco Village2, B-8 1607, Delhi, India</p>
+            <p>Phone: <FontAwesomeIcon icon={faPhoneAlt} /> +91 90970 93514</p>
             <p>Email: <FontAwesomeIcon icon={faEnvelope} /> projectmanagers@devpulseanalytics.com</p>
           </address>
         </div>
@@ -66,7 +77,7 @@ function Footer() {
 
       {/* Footer Bottom Section */}
       <div className="footer-bottom">
-        <p>&copy; 2025 DevpulseAnalytics. All Rights Reserved.</p>
+        <p>&copy; 2025 DevPulse Analytics. All Rights Reserved.</p>
       </div>
     </footer>
   );

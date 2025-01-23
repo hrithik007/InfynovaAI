@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBullhorn, faChartLine, faSearch, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import './DigitalMarketing.css';  // Assuming you will add the corresponding styles
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function DigitalMarketing() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="digital-marketing-page">
       <header className="header">

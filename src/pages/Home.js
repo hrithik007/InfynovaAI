@@ -1,9 +1,12 @@
-import React  from 'react';
+import React ,{useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css'; // Add your custom styles
 
 function Home() {
- 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home">
       {/* Hero Section */}

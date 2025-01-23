@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faRocket, faChartLine, faCogs } from '@fortawesome/free-solid-svg-icons';
 import './SEOOptimization.css';  // Assuming you will add the corresponding styles
@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'; // You can choose any icon
 
 function SEOOptimization() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="seo-optimization-page">
       <header className="header">

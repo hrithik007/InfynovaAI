@@ -1,42 +1,48 @@
-/* src/styles/Footer.css */
+/* Footer Wrapper */
 .footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 20px;
   font-family: 'Arial', sans-serif;
-  text-align: center;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 30px;
   margin-bottom: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Footer Sections */
 .footer-section {
   flex: 1 1 200px;
   margin: 10px;
+  text-align: left;
 }
 
 .footer-section h4 {
   color: #ff6600;
-  margin-bottom: 10px;
-  font-size: 18px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .footer-section ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
 }
 
 .footer-section ul li {
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 .footer-section ul li a {
+  color: #ddd;
   text-decoration: none;
-  color: #fff;
+  font-size: 16px;
   transition: color 0.3s ease;
 }
 
@@ -44,10 +50,14 @@
   color: #ff6600;
 }
 
+/* Social Media Links */
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
 .social-links a {
-  margin: 5px;
-  text-decoration: none;
-  color: #fff;
+  color: #ddd;
   transition: color 0.3s ease;
 }
 
@@ -55,13 +65,23 @@
   color: #ff6600;
 }
 
-.social-links a i {
-  margin-right: 8px;
+/* Address Section */
+address p {
+  margin: 5px 0;
+  line-height: 1.5;
 }
 
+address strong {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Footer Bottom */
 .footer-bottom {
-  background-color: #222;
-  padding: 10px;
+  text-align: center;
+  background-color: #111;
+  padding: 15px;
+  font-size: 14px;
   color: #bbb;
 }
 
@@ -69,10 +89,7 @@
   margin: 0;
 }
 
-.address p {
-  margin: 5px 0;
-}
-
+/* Responsive Design */
 @media screen and (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -80,25 +97,7 @@
   }
 
   .footer-section {
-    margin: 10px 0;
+    margin: 15px 0;
     text-align: center;
   }
-}
-
-/* Add this to your existing Footer.css file */
-
-.footer-section .dropdown-row {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-section .dropdown-row a {
-  color: #fff;
-  text-decoration: none;
-  margin: 5px 0;
-  transition: color 0.3s ease;
-}
-
-.footer-section .dropdown-row a:hover {
-  color: #ff6600;
 }

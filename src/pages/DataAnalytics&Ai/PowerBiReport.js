@@ -1,9 +1,14 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartPie, faMoneyCheckAlt, faDatabase, faPlug, faFileExcel, faChartBar, faCogs, faChartLine } from '@fortawesome/free-solid-svg-icons';
 import './PowerBIReport.css';
 
 function PowerBIReport() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <div className="power-bi-page">
       <header className="power-bi-header">

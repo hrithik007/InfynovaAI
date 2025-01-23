@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt, faDesktop, faTabletAlt, faCode, faChartLine, faUserCheck } from '@fortawesome/free-solid-svg-icons';
 import './ResponsiveWebApp.css'; // Include responsive styling
@@ -7,6 +7,10 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'; // You can choos
 import image from '../../assets/responsive.jpg';
 
 function ResponsiveWebApp() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="responsive-page-container">
       <header className="responsive-header-container">

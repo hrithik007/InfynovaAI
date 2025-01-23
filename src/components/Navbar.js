@@ -38,7 +38,7 @@ function NavBar() {
   
     <div className="social-icons">
     <span className="social-email">+91 7044234671</span>
-      <a className='icons' href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <a className='icons' href="https://www.facebook.com/profile.php?id=61572640581088" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-facebook-f"></i>
       </a>
 

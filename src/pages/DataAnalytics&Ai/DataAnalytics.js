@@ -1,9 +1,13 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import './DataAnalytics.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartLine, faLightbulb, faUserFriends } from '@fortawesome/free-solid-svg-icons';
 
 function DataAnalytics() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="data-analytics-page">
       <header className="data-analytics-header">

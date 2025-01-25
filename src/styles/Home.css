@@ -182,6 +182,10 @@
 }
 
 @media (max-width: 768px) {
+  .hero .cta-button{
+    padding: 10px 15px;
+  }
+
   .mission-container {
     flex-direction: column; /* Stack content vertically */
     text-align: center;
